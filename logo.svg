@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" class="svg-anim ">
+    <style>
+        .svg-anim {
+        stroke-dasharray: 300;
+        stroke-dashoffset: 300;
+        animation: dash 5s linear alternate infinite;
+        }
+        @keyframes dash {
+        from {
+        stroke-dashoffset: 300;
+        }
+        to {
+        stroke-dashoffset: 0;
+        }
+        }
+    </style>
+    <filter id="e" color-interpolation-filters="sRGB">
+        <feGaussianBlur result="result6" stdDeviation="1.5"/>
+        <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8"/>
+        <feComposite in="result8" in2="SourceAlpha" operator="atop" result="result9"/>
+    </filter>
+    <path fill="none" stroke="#1ba7dc" stroke-linecap="round" stroke-linejoin="miter" stroke-width="5" filter="url(#e)"
+          d="M43.171 16.527c-2.863-1.668-5.928-2.036-8.885-2.241-11.046 0-20 8.954-20 20v8.571m54.285-40a8.571 8.571 0 018.572 8.572v34.285c0 17.357-14.071 31.429-31.429 31.429H11.43a8.571 8.571 0 01-8.572-8.572V34.286c0-17.358 14.071-31.429 31.429-31.429zM14.286 54.29h31.428a8.571 8.571 0 008.572-8.571V14.286m11.428 0v31.433c0 11.045-8.954 20-20 20H14.286m28.571-22.862v-8.571a8.571 8.571 0 00-8.571-8.572 8.571 8.571 0 00-8.572 8.572v8.571"/>
+</svg>
