@@ -1,1 +1,1 @@
-<img src="logo.svg" width="30%" alt="jasineri" />
+[![jasineri.de](logo.svg)](http://www.jasineri.de/)
