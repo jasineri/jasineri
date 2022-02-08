@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="svg-anim" viewBox="0 0 160 160">
+<svg xmlns="http://www.w3.org/2000/svg" class="svg-anim" width="80" height="80" viewBox="0 0 160 160">
     <style>
         .svg-anim {
         stroke-dasharray: 300;
